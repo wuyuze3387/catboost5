@@ -30,7 +30,7 @@ feature_ranges = {
     "Mode of conception": {"type": "categorical", "options": [1, 2]},
     "Pregnancy complications": {"type": "categorical", "options": [1, 2]},
     "Breastfeeding": {"type": "categorical", "options": [1, 2]},
-    "Rooming in": {"type": "categorical", "options": [1, 2]},
+    "Rooming-in": {"type": "categorical", "options": [1, 2]},
     "Planned pregnancy": {"type": "categorical", "options": [1, 2]},
     "Intrapartum pain": {"type": "numerical", "min": 0, "max": 10, "default": 5},
     "Postpartum pain": {"type": "numerical", "min": 0, "max": 10, "default": 5},

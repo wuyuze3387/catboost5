@@ -17,9 +17,9 @@ model = joblib.load('CatBoost.pkl')
 
 # 特征范围定义（根据提供的特征范围和数据类型）
 feature_ranges = {
-    "Resilience": {"type": "numerical", "min": 6, "max": 30, "default": 18},
-    "Family support": {"type": "numerical", "min": 0, "max": 10, "default": 5},
-    "Psychological birth trauma": {"type": "numerical", "min": 0, "max": 42, "default": 14},
+    "Resilience": {"type": "numerical", "min": 7, "max": 28, "default": 18},
+    "Family support": {"type": "numerical", "min": 1, "max": 10, "default": 5},
+    "Psychological birth trauma": {"type": "numerical", "min": 0, "max": 36, "default": 14},
     "Age": {"type": "categorical", "options": [1, 2]},
     "Occupation": {"type": "categorical", "options": [1, 2]},
     "Method of delivery": {"type": "categorical", "options": [1, 2]},
